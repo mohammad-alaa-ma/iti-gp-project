@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/mohammad-alaa-ma/project'
+                git branch: 'main', url: 'https://github.com/mohammad-alaa-ma/iti-gp-project'
             }
         }
 
